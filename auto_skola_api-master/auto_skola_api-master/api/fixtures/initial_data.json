@@ -1,0 +1,25 @@
+[
+  {
+    "model": "auth.User",
+    "pk": 1,
+    "fields": {
+      "email": "user@mail.com",
+      "username": "user@mail.com",
+      "date_joined": "2021-11-12",
+      "last_login": "2021-11-12",
+      "is_staff": true,
+      "is_active": true,
+      "is_superuser": true,
+      "first_name": "Bekir",
+      "last_name": "Husejinovic",
+      "password": "pbkdf2_sha256$216000$b6aRLnvvm7ka$xsSaYmZ1o0oD5scFt33hDaHXLtM3AR7c0HVjqLxHMWs="
+    }
+  },
+   {
+    "model": "api.PlatformUser",
+    "fields": {
+      "user_ptr_id": 1,
+       "verification_token": null
+    }
+  }
+]
